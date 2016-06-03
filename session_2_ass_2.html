@@ -1,0 +1,23 @@
+
+<!-- Assignment – Multiplication using closure
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function Multiplication(num1){
+			var multiplyFunc = function(num2){
+					return "The result is : " + num1 * num2;
+				}			
+			return multiplyFunc;
+		}
+		
+		var multiply = Multiplication(5);
+		alert(multiply(7));
+
+	</script>
+</head>
+<body>
+</body>
+</html>
